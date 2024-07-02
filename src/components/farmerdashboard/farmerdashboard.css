@@ -1,0 +1,32 @@
+/* src/farmerdashboard/farmerdashboard.css */
+.FarmerDashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40%;
+  width: 98%;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transform: translateX(0);
+}
+
+.forecast-day {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: #2e2e2e;
+  padding: 10px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.forecast-day h3,
+.forecast-day p {
+  margin: 5px 10px;
+}

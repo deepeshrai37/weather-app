@@ -1,0 +1,80 @@
+/* src/eventplanner/eventplanner.css */
+.EventPlanner {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.forecast-details img {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+}
+
+/* Custom styles for react-calendar */
+.custom-calendar {
+  width: 100%;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #2e2e2e;
+  color: #e0e0e0;
+}
+
+.custom-calendar .react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.custom-calendar .react-calendar__navigation button {
+  min-width: 44px;
+  background: none;
+  border: none;
+  color: #00bcd4;
+  font-size: 16px;
+  padding: 10px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.custom-calendar .react-calendar__navigation button:disabled {
+  color: #ccc;
+}
+
+.custom-calendar .react-calendar__navigation button:hover {
+  background-color: #3a3a3a;
+  border-radius: 5px;
+}
+
+.custom-calendar .react-calendar__tile {
+  padding: 20px;
+  margin: 2px;
+  background-color: #3a3a3a;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #e0e0e0;
+  cursor: pointer;
+}
+
+.custom-calendar .react-calendar__tile--now {
+  background-color: #00bcd4;
+  color: white;
+}
+
+.custom-calendar .react-calendar__tile--active {
+  background-color: #008ba3;
+  color: white;
+}
+
+.custom-calendar .react-calendar__tile:hover {
+  background-color: #5c5c5c;
+}
+
+.custom-calendar .react-calendar__month-view__days__day--weekend {
+  color: #ff5252;
+}

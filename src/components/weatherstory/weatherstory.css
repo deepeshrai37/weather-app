@@ -1,0 +1,47 @@
+.WeatherStory {
+  margin: 20px 5px;
+  padding: 20px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  color: #e0e0e0;
+}
+
+textarea {
+  width: 50%;
+  height: 100px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  background-color: #333;
+  color: #e0e0e0;
+  transition: border-color 0.3s;
+}
+
+textarea:focus {
+  border-color: #00bcd4;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 188, 212, 0.5);
+}
+
+.stories {
+  margin-top: 20px;
+}
+
+.stories p {
+  padding: 15px;
+  border-bottom: 1px solid #555;
+  background-color: #2e2e2e;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+  color: #e0e0e0;
+}
+
+.stories p:hover {
+  background-color: #424242;
+}
